@@ -4,13 +4,15 @@ import { Component } from "@angular/core";
   selector: 'chat-page',
   template: `
     <div class="chat-page">
-      <h1>Chat Page</h1>
-      <chat></chat>
+      <div class="chat-box">
+        <div class="text-center">
+          <h1>Chat</h1>
+        </div>
+        <chat class="chat"></chat>
+      </div>
     </div>
   `,
-  styles: [`
-    
-  `]
+  styleUrls: ['./chat-page.component.scss']
 })
 export class ChatPageComponent {
 
