@@ -9,6 +9,7 @@ import { RouterModule, Routes } from "@angular/router";
 // chat
 import { ChatModule } from "./chat/chat.module";
 import { ChatPageComponent } from "./chat/components/chat-page/chat-page.component";
+import { RegisterComponent } from './register/register.component';
 
 const ROUTES: Routes = [
   { path: '', pathMatch: 'full', component: ChatPageComponent }
@@ -18,6 +19,7 @@ const ROUTES: Routes = [
   declarations: [
     AppComponent,
     NavbarComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

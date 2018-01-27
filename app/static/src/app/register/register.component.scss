@@ -1,0 +1,31 @@
+$color_1: black;
+$background_color_1: white;
+$background_color_2: steelblue;
+$background_color_3: red;
+
+html {
+	margin: 2em;
+}
+form {
+	width: 500px;
+}
+body {
+	background-color: $background_color_1;
+}
+.header {
+	background-color: $background_color_2;
+}
+.header_div {
+	margin: 0 auto;
+	width: 40%;
+	background-color: $background_color_1;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.center_div {
+	margin: 0 auto;
+	width: 40%;
+}
+.form-group {
+	color: $color_1;
+}
