@@ -1,4 +1,5 @@
 import os
+import app.db as db
 
 from flask import Flask, send_file
 app = Flask(__name__)
@@ -30,6 +31,7 @@ def route_frontend(path):
 
 
 if __name__ == "__main__":
+    db.create_tables()
     # Only for debugging while developing
     app.run(host='0.0.0.0', debug=True, port=80)
 
