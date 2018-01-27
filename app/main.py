@@ -1,15 +1,14 @@
 import os
 
-from flask import Flask, send_file
-app = Flask(__name__)
+from flask import Flask, send_file, jsonify
 
+app = Flask(__name__)
 
 @app.route("/hello")
 def hello():
-    # return "Hello World from Flask"
-    return send_file('./static/src/app/app.component.html')
-
-
+    return jsonify({
+        'data': 'hello world!'
+    })
 @app.route("/")
 def main():
     index_path = os.path.join(app.static_folder, 'index.html')
