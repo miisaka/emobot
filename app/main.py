@@ -32,6 +32,9 @@ def route_frontend(path):
 
 if __name__ == "__main__":
     db.create_tables()
+    db.insert_into_users('user1','pw1','contact1', 1234, 'papa')
+    db.query_users('user1')
+    db.close_connection()
     # Only for debugging while developing
-    app.run(host='0.0.0.0', debug=True, port=80)
+    app.run(host='0.0.0.0', port=80)
 

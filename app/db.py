@@ -48,9 +48,18 @@ def insert_into_userEmotion(user_id, emotion, emotionDate):
     conn.text_factory = str
     cursor.execute('PRAGMA foreign_keys=ON')
 
-    cursor.execute(
-        "INSERT OR REPLACE INTO users (user_id, emotion, emotionDate) VALUES ({0}, '{1}', '{2}')"
-        .format(user_id, emotion, emotionDate))
+    cursor.execute("INSERT OR REPLACE INTO users (user_id, emotion, emotionDate) VALUES ({0}, '{1}', '{2}')"
+                    .format(user_id, emotion, emotionDate))
     conn.commit()
 
+# this method returns the pw of user
+def query_users(username):
+    cursor = conn.cursor()
+    conn.text_factory = str
+    cursor.execute('PRAGMA foreign_keys=ON')
 
+    cursor.execute("SELECT username, password FROM users WHERE username='{0}'".format(username))
+    print cursor.fetchone()[1]
+
+def close_connection():
+    conn.close()
