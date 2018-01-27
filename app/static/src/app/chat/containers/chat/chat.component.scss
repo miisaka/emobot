@@ -1,0 +1,57 @@
+:host {
+  display: block;
+}
+
+$message-tip: .5rem;
+
+.message-wrapper {
+  padding-bottom: 1rem;
+}
+.message-container {
+  max-height: 480px;
+  overflow-y: scroll;
+}
+
+.message-list {
+
+}
+
+.message-item {
+  background-color: #0084ff;
+  padding: .5rem .75rem;
+  color: white;
+  font-size: .875rem;
+  border-radius: 1rem;
+  max-width: 60%;
+  margin-bottom: .75rem;
+  position: relative;
+
+  &:before {
+    content: " ";
+    height: $message-tip;
+    width: $message-tip;
+    border: solid $message-tip #0084ff;
+    position: absolute;
+    bottom: -$message-tip * 2;
+    border-bottom: solid $message-tip transparent;
+  }
+}
+.message-item-left {
+  border-bottom-left-radius: 0;
+  background: #585858;
+  &:before {
+    border-color: #585858;
+    left: 0;
+    border-right: solid $message-tip transparent;
+    border-bottom-color: transparent;
+  }
+}
+.message-item-right {
+  margin-left: auto;
+  border-bottom-right-radius: 0;
+
+  &:before {
+    right: 0;
+    border-left: solid $message-tip transparent;
+  }
+}

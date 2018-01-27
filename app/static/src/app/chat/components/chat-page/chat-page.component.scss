@@ -1,0 +1,23 @@
+:host {
+  display: block;
+}
+.chat-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #114357; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #114357, #f29492); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #114357, #f29492); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.chat-box {
+  max-width: 460px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+.chat {
+  color: black;
+  padding: 1rem;
+  border-radius: .25rem;
+  background-color: white;
+}
