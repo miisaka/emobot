@@ -1,53 +1,69 @@
- <header>
+<div class="background">
+<header>
     <div class="container header_div">
-      <div class="page-header head">
-
-        <h1>Register</h1>
-
-      </div>
+        <p>Register</p>
     </div>
   </header>
 
   <div class="container center_div">
     <form (submit)="onRegisterSubmit()" method="post">
           <div class="form-group">
-            <label>Username</label>
-              <input type="text" class="form-control" id="userName" placeholder = "Enter username" name="username" [(ngModel)] = "username">
+            <label for="username" class="cols-sm-2 control-label">Username</label>
+              <div class="input-group text-center">
+                <span class="input-group-addon"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
+                <input type="text" class="form-control" name="username" id="username" placeholder = "Enter username" [(ngModel)] = "username">
+              </div>
           </div>
 
           <div class="form-group">
-            <label>Password</label>
-            <input type = "password" class="form-control" aria-describedby="passwordHelp" placeholder = "Enter password" name="password" [(ngModel)] = "password">
-            <small id="passwordHelp" class="form-text text-muted">Please include a mix of upper-case and lower-case letters</small>
+            <label for="password" class="cols-sm-2 control-label">Password</label>
+              <div class="input-group text-center">
+                <span class="input-group-addon"><i class="fa fa-lock fa-fw" aria-hidden="true"></i></span>
+                <input type = "password" class="form-control" name="password" id="password" placeholder = "Enter password" [(ngModel)] = "password">
+              </div>
+              <small id="passwordHelp" class="form-text text-muted">Please include a mix of upper-case and lower-case letters</small>
           </div>
 
           <div class="form-group">
-            <label>Contact name</label>
-            <input type="text" class="form-control" id="contactName" placeholder = "Enter contact name" name="contactName" [(ngModel)] = "contactName">
+            <label for="contactName" class="cols-sm-2 control-label">Contact name</label>
+              <div class="input-group text-center">
+                <span class="input-group-addon"><i class="fa fa-users fa-fw" aria-hidden="true"></i></span>
+                <input type="text" class="form-control" name="contactName" id="contactName" placeholder = "Enter contact name" [(ngModel)] = "contactName">
+              </div>
           </div>
 
           <div class="form-group">
-            <label>Contact phone number</label>
-            <input type = "text" class="form-control" placeholder = "Enter contact phone number" name="contactNumber" [(ngModel)] = "contactNumber">
+            <label for="contactNumber" class="cols-sm-2 control-label">Contact phone number</label>
+              <div class="input-group text-center">
+                <span class="input-group-addon"><i class="fa fa-phone fa-fw" aria-hidden="true"></i></span>
+                <input type="text" class="form-control" name="contactNumber" id="contactNumber" placeholder = "Enter contact phone number" [(ngModel)] = "contactNumber">
+              </div>
           </div>
 
+          <div class="form-group">
+            <label for="contactRelationship" class="cols-sm-2 control-label">Relationship to contact</label>
+              <div class="input-group text-center">
+                <span class="input-group-addon"><i class="fa fa-users fa-fw" aria-hidden="true"></i></span>
+                <select class="form-control" id="contactRelationship" name="relationshipToContact" [(ngModel)]="relationshipToContact">
+                <option>Mother</option>
+                <option>Father</option>
+                <option>Grandmother</option>
+                <option>Grandfather</option>
+            </select>
+              </div>
+          </div>
 
-          <label for="contactRelationship">Relationship to contact</label>
-          <select class="form-control" id="contactRelationship" name="relationshipToContact" [(ngModel)]="relationshipToContact">
-            <option>Mother</option>
-            <option>Father</option>
-            <option>Grandmother</option>
-            <option>Grandfather</option>
-          </select>
-          <br/>
           <div class="form-check">
             <input type="checkbox" class="form-check-input" name="elderly" [(ngModel)]="elderly">
-            <label class="form-check-label">I am elderly</label>
+            <label class="form-check-label">I certify that I am elderly and have read all terms and conditions</label>
           </div>
           <br/>
 
-          <button type="submit" class="btn btn-primary">Submit</button>
+    <input type="submit" class="btn btn-primary" value="Register">
 
     </form>
+
+
   </div>
 
+</div>
