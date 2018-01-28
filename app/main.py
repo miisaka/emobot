@@ -1,5 +1,6 @@
 import os
 import app.db as db
+import twillio
 
 from flask import Flask, send_file
 app = Flask(__name__)
@@ -35,6 +36,8 @@ if __name__ == "__main__":
     db.insert_into_users('user1','pw1','contact1', 1234, 'papa')
     db.query_users('user1')
     db.close_connection()
+    twillio.send_sms("15144653168", "papa", "angry")
+    # twillio.generate_random_hand_emoji()
     # Only for debugging while developing
     app.run(host='0.0.0.0', port=80)
 
