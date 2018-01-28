@@ -1,14 +1,11 @@
 import os
-from flask import Flask, send_file, request
+from flask import Flask, send_file, jsonify, request,  abort, json, session
 import app.db as db
 import twillio
 
 app = Flask(__name__)
 
-
-from flask import Flask, send_file, jsonify, request,  abort, json
-
-app = Flask(__name__)
+app.secret_key = 'nathanChao'
 
 @app.route("/hello")
 def hello():
@@ -39,8 +36,14 @@ def login():
     print ('username is ' + username)
     print ('password is ' + password)
     if(db.query_users(username) == password):
+        session['username'] = username
         print('horray everythings right')
     return json.dumps(request.json)
+
+@app.route("/chat", methods=['POST'])
+def chat():
+    print(request.json)
+    
 
 # Everything not declared before (not a Flask route / API endpoint)...
 @app.route('/<path:path>')
