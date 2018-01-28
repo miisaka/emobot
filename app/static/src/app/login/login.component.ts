@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import {Router} from '@angular/router';
+import {FormBuilder, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-login',
@@ -8,20 +10,27 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private http: HttpClient) { }
-  username: String;
-  password: String
+   form = this.fb.group({
+     username: ['', Validators.required],
+     password: ['', Validators.required],
+   });
+  constructor(private http: HttpClient,
+              private fb: FormBuilder,
+              private router: Router) { }
   ngOnInit() {
   }
 
-  onLoginSubmit() {
-    const user = {
-      username: this.username,
-      password: this.password
+  onLoginSubmit($event) {
+     $event.preventDefault();
+     console.log(this.form.value);
+
+    if (this.form.valid) {
+      this.http.post('http://localhost:4200/api/login', this.form.value).subscribe(data => {
+        this.router.navigate(['/']);
+      }, (err) => {
+        console.log(err);
+      });
     }
-    this.http.post('http://localhost/login', user).subscribe(data => {
-      console.log(data);
-    });
   }
 
 }
