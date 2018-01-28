@@ -66,11 +66,8 @@ export class ChatComponent implements OnInit {
   ngOnInit() {
     this.http.post('http://localhost:4200/api/chat', { message: 'welcome' })
       .subscribe((res: any) => {
-        this.messages.push({
-          isRight: false,
-          body: res.message
-        });
-      })
+        this.addNewMessage(false, res.message);
+      });
   }
 
   submitMessage($event) {
