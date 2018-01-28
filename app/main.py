@@ -33,10 +33,8 @@ def route_frontend(path):
 if __name__ == "__main__":
     db.create_tables()
     db.insert_into_users('user1','pw1','contact1', 1234, 'papa')
-    db.query_users('user1')
-    db.close_connection()
-    twillio.send_sms("15144653168", "papa", "angry")
-    # twillio.generate_random_hand_emoji()
-    # Only for debugging while developing
+    db.query_users_info('user1')
+    # twillio.send_sms("Georgio", "15144653168", "papa", "angry")
     app.run(host='0.0.0.0', port=80)
+    db.close_connection()
 

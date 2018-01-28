@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="272a6d59-f19f-4d86-8e3a-cb8ece06278c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/appdb.db" afterPath="$PROJECT_DIR$/app/appdb.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/db.py" afterPath="$PROJECT_DIR$/app/db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.py" afterPath="$PROJECT_DIR$/app/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/twillio.py" afterPath="$PROJECT_DIR$/app/twillio.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/watson.py" afterPath="$PROJECT_DIR$/app/watson.py" />
     </list>
     <ignored path="python-flask-conuhacks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +20,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python-flask-conuhacks$watsonTest.coverage" NAME="watsonTest Coverage Results" MODIFIED="1517087372308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/python-flask-conuhacks$mainapp.coverage" NAME="mainapp Coverage Results" MODIFIED="1517119124326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/python-flask-conuhacks$mainapp.coverage" NAME="mainapp Coverage Results" MODIFIED="1517132195241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -38,8 +42,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            <state relative-caret-position="413">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -60,9 +64,20 @@
       <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="369">
+              <caret line="76" column="18" lean-forward="false" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+              <folding>
+                <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+                <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+                <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+                <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+                <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +85,8 @@
       <file leaf-file-name="twillio.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/twillio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="307">
+              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -82,8 +97,8 @@
       <file leaf-file-name="watson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/watson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="817">
+              <caret line="132" column="22" lean-forward="false" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -117,10 +132,10 @@
         <option value="$PROJECT_DIR$/app/watsonTest.py" />
         <option value="$PROJECT_DIR$/app/static/watsonTest.html" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/app/db.py" />
         <option value="$PROJECT_DIR$/app/views.py" />
-        <option value="$PROJECT_DIR$/app/main.py" />
         <option value="$PROJECT_DIR$/app/watson.py" />
+        <option value="$PROJECT_DIR$/app/db.py" />
+        <option value="$PROJECT_DIR$/app/main.py" />
         <option value="$PROJECT_DIR$/app/twillio.py" />
       </list>
     </option>
@@ -499,7 +514,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -554,7 +569,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1342">
           <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-          <folding />
+          <folding>
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -590,7 +616,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1342">
           <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-          <folding />
+          <folding>
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -626,7 +663,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-          <folding />
+          <folding>
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -652,7 +700,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-          <folding />
+          <folding>
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -708,11 +767,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/db.py">
+    <entry file="file://$PROJECT_DIR$/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="413">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,20 +785,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.py">
+    <entry file="file://$PROJECT_DIR$/app/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        <state relative-caret-position="369">
+          <caret line="76" column="18" lean-forward="false" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/watson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="817">
+          <caret line="132" column="22" lean-forward="false" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
@@ -746,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/twillio.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="307">
+          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>

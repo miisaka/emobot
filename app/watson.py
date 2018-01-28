@@ -55,3 +55,79 @@ def toneInput(input):
 
 
 toneInput("I cried again today")
+
+
+#get tone from json
+
+# dictOfTone = {
+#   "document_tone": {
+#     "tones": [
+#       {
+#         "score": 0.6165,
+#         "tone_id": "sadness",
+#         "tone_name": "Sadness"
+#       },
+#       {
+#         "score": 0.829888,
+#         "tone_id": "analytical",
+#         "tone_name": "Analytical"
+#       }
+#     ]
+#   },
+#   "sentences_tone": [
+#     {
+#       "sentence_id": 0,
+#       "text": "Team, I know that times are tough!",
+#       "tones": [
+#         {
+#           "score": 0.801827,
+#           "tone_id": "analytical",
+#           "tone_name": "Analytical"
+#         }
+#       ]
+#     },
+#     {
+#       "sentence_id": 1,
+#       "text": "Product sales have been disappointing for the past three quarters.",
+#       "tones": [
+#         {
+#           "score": 0.771241,
+#           "tone_id": "sadness",
+#           "tone_name": "Sadness"
+#         },
+#         {
+#           "score": 0.687768,
+#           "tone_id": "analytical",
+#           "tone_name": "Analytical"
+#         }
+#       ]
+#     },
+#     {
+#       "sentence_id": 2,
+#       "text": "We have a competitive product, but we need to do a better job of selling it!",
+#       "tones": [
+#         {
+#           "score": 0.506763,
+#           "tone_id": "analytical",
+#           "tone_name": "Analytical"
+#         }
+#       ]
+#     }
+#   ]
+# }
+# jsonOfTone = json.dumps(dictOfTone)
+
+def get_tone(jsonFromToneAnalyzer):
+    eldersTone = ""
+    tonesDict = json.loads(jsonFromToneAnalyzer)["document_tone"]["tones"]
+    # print tonesDict
+    for tones in tonesDict:
+        if ((tones["tone_id"] == "sadness") or
+                (tones["tone_id"] == "angry") or
+                (tones["tone_id"] == "fear")) and (tones["score"] > 0.60):
+            eldersTone = tones["tone_id"]
+
+    print 'eldertone ',eldersTone
+    return eldersTone
+
+# get_tone(jsonOfTone)

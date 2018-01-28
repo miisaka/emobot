@@ -7,7 +7,8 @@ def create_tables():
     conn.text_factory = str
     cursor.execute('PRAGMA foreign_keys=ON')
 
-    cursor.execute("""CREATE TABLE IF NOT EXISTS emotionList(
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS emotionList(
         emotion TEXT PRIMARY KEY
         );""")
 
@@ -58,8 +59,25 @@ def query_users(username):
     conn.text_factory = str
     cursor.execute('PRAGMA foreign_keys=ON')
 
-    cursor.execute("SELECT username, password FROM users WHERE username='{0}'".format(username))
-    print cursor.fetchone()[1]
+    cursor.execute("SELECT password FROM users WHERE username='{0}'".format(username))
+    return cursor.fetchone()[0]
+
+def query_users_info(username):
+    userInfo = {}
+    cursor = conn.cursor()
+    conn.text_factory = str
+    cursor.execute('PRAGMA foreign_keys=ON')
+
+    cursor.execute("SELECT contactName, contactNumber, relationToContact FROM users WHERE username='{0}'".format(username))
+
+    userInfo["contactName"] = cursor.fetchone()[0]
+    userInfo["contactNumber"] = cursor.fetchone()[1]
+    userInfo["relationToContact"] = cursor.fetchone()[2]
+
+    print userInfo
+    return userInfo
+
+
 
 def close_connection():
     conn.close()
