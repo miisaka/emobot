@@ -17,7 +17,8 @@ import { ChatPageComponent } from "./chat/components/chat-page/chat-page.compone
 const ROUTES: Routes = [
   { path: '', pathMatch: 'full', component: ChatPageComponent },
   { path: 'login', pathMatch: 'full', component: LoginComponent},
-  { path: 'register', pathMatch: 'full', component: RegisterComponent}
+  { path: 'register', pathMatch: 'full', component: RegisterComponent},
+  { path: 'chat', pathMatch: 'full', component: ChatPageComponent}
 
 ];
 
