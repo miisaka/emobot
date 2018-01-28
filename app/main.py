@@ -1,5 +1,6 @@
 import os
 import app.db as db
+import views
 
 
 from flask import Flask, send_file, jsonify, request,  abort, json
@@ -18,11 +19,13 @@ def main():
 
 @app.route("/register", methods=['POST'])
 def register():
-    if not request.json:
-        abort(400)
-    print request.json
+    username = (request.json['username'])
+    password = (request.json['password'])
+    contactName = (request.json['contactName'])
+    contactNumber = (request.json['contactNumber'])
+    relationToContact = (request.json['relationshipToContact'])
+    db.insert_into_users(username, password, contactName, contactNumber, relationToContact)
     return json.dumps(request.json)
-    # db.insert_into_users("all params into here")
 
 @app.route("/login", methods=['POST'])
 def login():
@@ -34,11 +37,9 @@ def login():
     print ('password is ' + password)
     if(db.query_users(username) == password):
         print('horray everythings right')
-    return json.dumps(request.json)
+        return 0;
+    return -1
 
-
-    # print(request.form['username'])
-    # return(request.form['username'])
 
 # Everything not declared before (not a Flask route / API endpoint)...
 @app.route('/<path:path>')

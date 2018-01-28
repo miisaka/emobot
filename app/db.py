@@ -58,9 +58,13 @@ def query_users(username):
     conn.text_factory = str
     cursor.execute('PRAGMA foreign_keys=ON')
 
-    cursor.execute("SELECT username, password FROM users WHERE username='{0}'".format(username))
-    print cursor.fetchone()[1]
-    return cursor.fetchone()[1]
+    cursor.execute("SELECT password FROM users WHERE username='{0}'".format(username))
+    # print cursor.fetchone()[1]
+    name = cursor.fetchone()[0]
+    row = cursor.fetchone()
+    if row is not None:
+        names = row[0]
+    return name
 
 def close_connection():
     conn.close()
