@@ -9,7 +9,7 @@
   </header>
 
   <div class="container center_div">
-    <form (submit)="onRegisterSubmit()">
+    <form (submit)="onRegisterSubmit()" method="post">
           <div class="form-group">
             <label>Username</label>
               <input type="text" class="form-control" id="userName" placeholder = "Enter username" name="username" [(ngModel)] = "username">
@@ -41,7 +41,7 @@
           </select>
           <br/>
           <div class="form-check">
-            <input type="checkbox" class="form-check-input">
+            <input type="checkbox" class="form-check-input" name="elderly" [(ngModel)]="elderly">
             <label class="form-check-label">I am elderly</label>
           </div>
           <br/>

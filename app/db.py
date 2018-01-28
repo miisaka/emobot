@@ -60,6 +60,7 @@ def query_users(username):
 
     cursor.execute("SELECT username, password FROM users WHERE username='{0}'".format(username))
     print cursor.fetchone()[1]
+    return cursor.fetchone()[1]
 
 def close_connection():
     conn.close()

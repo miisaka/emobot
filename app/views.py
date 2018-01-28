@@ -1,13 +1,19 @@
 import app.db as db
 
-from flask import Flask, send_file
+from flask import Flask, request, jsonify
+
 app = Flask(__name__)
 
-
-@app.route("/register")
+@app.route("/register", methods=['POST'])
 def register():
-    db.insert_into_users("all params into here")
+    print(request.form['username'])
+    # db.insert_into_users("all params into here")
 
-@app.route("/login")
+@app.route("/login", methods=['GET'])
 def login():
-    db.query_users("frontend username here")
+    return jsonify({
+        'data': 'hello world!'
+    })
+    # print(db.query_users(request.form['username']))
+    # print(request.form['username'])
+    # return(request.form['username'])

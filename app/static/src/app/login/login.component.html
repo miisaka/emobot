@@ -9,14 +9,14 @@
   </header>
 
  <div class="container center_div">
-  <form>
+  <form name="login" (submit)="onLoginSubmit()" method="post" enctype="multipart/form-data">
     <div class="form-group">
       <label>Username:</label>
-      <input type="text" class="form-control" name="username" placeholder = "Enter Username">
+      <input type="text" class="form-control" name="username" placeholder = "Enter Username" name="username" [(ngModel)]="username">
     </div>
     <div class="form-group">
       <label>Password:</label>
-      <input type="password" class="form-control" name="password"  placeholder = "Enter Password">
+      <input type="password" class="form-control" name="password"  placeholder = "Enter Password" name="password" [(ngModel)]="password">
     </div>
     <input type="submit" class="btn btn-primary" value="Login">
   </form>

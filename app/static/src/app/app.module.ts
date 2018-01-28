@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';  // <-- #1 import module
+import { HttpClientModule } from '@angular/common/http';
 
 // chat
 import { ChatModule } from "./chat/chat.module";
@@ -31,9 +32,10 @@ const ROUTES: Routes = [
     ChatModule,
     RouterModule.forRoot(ROUTES),
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule{}

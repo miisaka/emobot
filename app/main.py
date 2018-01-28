@@ -1,7 +1,8 @@
 import os
 import app.db as db
 
-from flask import Flask, send_file, jsonify
+
+from flask import Flask, send_file, jsonify, request,  abort, json
 
 app = Flask(__name__)
 
@@ -15,6 +16,29 @@ def main():
     index_path = os.path.join(app.static_folder, 'index.html')
     return send_file(index_path)
 
+@app.route("/register", methods=['POST'])
+def register():
+    if not request.json:
+        abort(400)
+    print request.json
+    return json.dumps(request.json)
+    # db.insert_into_users("all params into here")
+
+@app.route("/login", methods=['POST'])
+def login():
+    # if the user exists (?)
+    print (request.json)
+    username = (request.json['username'])
+    password = (request.json['password'])
+    print ('username is ' + username)
+    print ('password is ' + password)
+    if(db.query_users(username) == password):
+        print('horray everythings right')
+    return json.dumps(request.json)
+
+
+    # print(request.form['username'])
+    # return(request.form['username'])
 
 # Everything not declared before (not a Flask route / API endpoint)...
 @app.route('/<path:path>')
@@ -32,9 +56,7 @@ def route_frontend(path):
 
 if __name__ == "__main__":
     db.create_tables()
-    db.insert_into_users('user1','pw1','contact1', 1234, 'papa')
-    db.query_users('user1')
-    db.close_connection()
     # Only for debugging while developing
     app.run(host='0.0.0.0', port=80)
+    db.close_connection()
 
