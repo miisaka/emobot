@@ -1,8 +1,8 @@
 import os
+from flask import Flask, send_file, request
 import app.db as db
 import twillio
 
-from flask import Flask, send_file
 app = Flask(__name__)
 
 
@@ -15,7 +15,6 @@ def hello():
 def main():
     index_path = os.path.join(app.static_folder, 'index.html')
     return send_file(index_path)
-
 
 # Everything not declared before (not a Flask route / API endpoint)...
 @app.route('/<path:path>')
