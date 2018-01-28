@@ -1,8 +1,9 @@
+<div class="background">
  <header>
     <div class="container header_div">
       <div class="page-header head">
 
-        <h1>Login</h1>
+        <p>Login</p>
 
       </div>
     </div>
@@ -10,14 +11,32 @@
 
  <div class="container center_div">
   <form>
+
     <div class="form-group">
-      <label>Username:</label>
-      <input type="text" class="form-control" name="username" placeholder = "Enter Username">
+      <label for="username" class="cols-sm-2 control-label">Username</label>
+      <div class="input-group text-center">
+        <span class="input-group-addon"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="username" id="username" placeholder = "Enter username">
+      </div>
     </div>
+
+
     <div class="form-group">
-      <label>Password:</label>
-      <input type="password" class="form-control" name="password"  placeholder = "Enter Password">
+      <label for="password" class="cols-sm-2 control-label">Password</label>
+      <div class="input-group text-center">
+        <span class="input-group-addon"><i class="fa fa-lock fa-fw" aria-hidden="true"></i></span>
+        <input type="password" class="form-control" id="password" placeholder = "Enter password">
+      </div>
     </div>
     <input type="submit" class="btn btn-primary" value="Login">
+
   </form>
  </div>
+
+
+
+
+
+
+
+  </div>

@@ -1,31 +1,47 @@
-$color_1: black;
-$background_color_1: white;
-$background_color_2: steelblue;
-$background_color_3: red;
-
-html {
-	margin: 2em;
-}
-form {
-	width: 500px;
-}
-body {
-	background-color: $background_color_1;
-}
-.header {
-	background-color: $background_color_2;
-}
 .header_div {
-	margin: 0 auto;
-	width: 40%;
-	background-color: $background_color_1;
-	padding-top: 15px;
-	padding-bottom: 15px;
+  	width: 40%;
+    text-align: center;
+  font-size: 120px;
+  font-weight: bold;
+  font-family: "Palace Script MT";
 }
 .center_div {
+  padding: 20px;
+  border-radius: 5px;
+  height: 585px;
 	margin: 0 auto;
 	width: 40%;
+  background:rgba(255,255,255,0.5);
 }
-.form-group {
-	color: $color_1;
+
+.background{
+  /*
+  background: linear-gradient(to right, #83a4d4, #b6fbff); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!
+  */
+  background: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center;
+  height: 850px;
+}
+
+.form-group{
+  color: black;
+  font-family: Arial;
+}
+
+.input-group-addon{
+  padding-top: 3px;
+}
+
+.input-group-addon{
+  padding-top: 4px;
+  font-size: 20px;
+  border-radius: 2px;
+  width: 35px;
+  background-color: #3f51b5;
+  color: white;
+}
+
+.btn-primary{
+  background-color: #3f51b5;
+  color: white;
+
 }

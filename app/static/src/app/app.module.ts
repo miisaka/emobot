@@ -9,7 +9,6 @@ import { RegisterComponent } from './register/register.component';
 // chat
 import { ChatModule } from "./chat/chat.module";
 import { ChatPageComponent } from "./chat/components/chat-page/chat-page.component";
-import { RegisterComponent } from './register/register.component';
 
 const ROUTES: Routes = [
   { path: '', pathMatch: 'full', component: ChatPageComponent },
