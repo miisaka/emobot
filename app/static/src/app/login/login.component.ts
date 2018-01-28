@@ -26,6 +26,8 @@ export class LoginComponent implements OnInit {
 
     if (this.form.valid) {
       this.http.post('http://localhost:4200/api/login', this.form.value).subscribe(data => {
+        console.log('poop');
+        console.log('back to component.ts' + data);
         this.router.navigate(['/']);
       }, (err) => {
         console.log(err);

@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import { HttpClient } from "@angular/common/http";
+import {Router} from '@angular/router';
 
 
 import 'rxjs/add/operator/catch';
 import { Observable } from "rxjs/Observable";
+import {Router} from "@angular/router";
 
 export interface Message {
   isRight: boolean;
@@ -52,15 +54,27 @@ export class ChatComponent {
   });
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private router: Router
   ) { }
 
   submitMessage() {
     console.log(this.form.value);
+    this.messages.push({
+      isRight: true,
+      body: this.form.value.message
+    });
+    console.log('messaged from me pushed');
     if (this.form.valid) {
       this.http.post('http://localhost:4200/api/chat', this.form.value)
         .catch((err) => Observable.throw(err))
         .subscribe((res) => {
+          console.log('res response' + res);
+          this.messages.push({
+            isRight: false,
+            body: res.message});
+          console.log('message from bot pushed');
+          // this.router.navigate(['/chat']);
         }, (err) => {
 
       });
