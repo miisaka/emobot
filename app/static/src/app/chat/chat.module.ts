@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from "@angular/common";
+import { ReactiveFormsModule } from "@angular/forms";
+import { HttpClientModule } from "@angular/common/http";
 
 // components
 import { ChatPageComponent } from "./components/chat-page/chat-page.component";
@@ -13,7 +15,9 @@ import { ChatComponent } from "./containers/chat/chat.component";
     ChatComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   exports: [
     ChatPageComponent

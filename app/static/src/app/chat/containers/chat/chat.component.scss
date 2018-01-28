@@ -2,13 +2,13 @@
   display: block;
 }
 
-$message-tip: .5rem;
+$message-tip: .25rem;
 
 .message-wrapper {
   padding-bottom: 1rem;
 }
 .message-container {
-  max-height: 480px;
+  height: 360px;
   overflow-y: scroll;
 }
 

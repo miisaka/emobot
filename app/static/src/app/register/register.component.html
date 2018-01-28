@@ -12,7 +12,7 @@
             <label for="username" class="cols-sm-2 control-label">Username</label>
               <div class="input-group text-center">
                 <span class="input-group-addon"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
-                <input type="text" class="form-control" name="username" id="username" placeholder = "Enter username">
+                <input type="text" class="form-control" name="username" id="username" placeholder = "Enter username" [(ngModel)] = "username">
               </div>
           </div>
 
@@ -20,7 +20,7 @@
             <label for="password" class="cols-sm-2 control-label">Password</label>
               <div class="input-group text-center">
                 <span class="input-group-addon"><i class="fa fa-lock fa-fw" aria-hidden="true"></i></span>
-                <input type = "password" class="form-control" id="password" placeholder = "Enter password">
+                <input type = "password" class="form-control" name="password" id="password" placeholder = "Enter password" [(ngModel)] = "password">
               </div>
               <small id="passwordHelp" class="form-text text-muted">Please include a mix of upper-case and lower-case letters</small>
           </div>
@@ -29,7 +29,7 @@
             <label for="contactName" class="cols-sm-2 control-label">Contact name</label>
               <div class="input-group text-center">
                 <span class="input-group-addon"><i class="fa fa-users fa-fw" aria-hidden="true"></i></span>
-                <input type="text" class="form-control" name="contactName" id="contactName" placeholder = "Enter contact name">
+                <input type="text" class="form-control" name="contactName" id="contactName" placeholder = "Enter contact name" [(ngModel)] = "contactName">
               </div>
           </div>
 
@@ -37,7 +37,7 @@
             <label for="contactNumber" class="cols-sm-2 control-label">Contact phone number</label>
               <div class="input-group text-center">
                 <span class="input-group-addon"><i class="fa fa-phone fa-fw" aria-hidden="true"></i></span>
-                <input type="text" class="form-control" name="contactNumber" id="contactNumber" placeholder = "Enter contact phone number">
+                <input type="text" class="form-control" name="contactNumber" id="contactNumber" placeholder = "Enter contact phone number" [(ngModel)] = "contactNumber">
               </div>
           </div>
 
@@ -45,7 +45,7 @@
             <label for="contactRelationship" class="cols-sm-2 control-label">Relationship to contact</label>
               <div class="input-group text-center">
                 <span class="input-group-addon"><i class="fa fa-users fa-fw" aria-hidden="true"></i></span>
-                <select class="form-control" id="contactRelationship">
+                <select class="form-control" id="contactRelationship" name="relationshipToContact" [(ngModel)]="relationshipToContact">
                 <option>Mother</option>
                 <option>Father</option>
                 <option>Grandmother</option>

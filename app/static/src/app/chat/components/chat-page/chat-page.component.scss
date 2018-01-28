@@ -1,8 +1,6 @@
 :host {
-  display: block;
-}
-.chat-page {
-  min-height: 100vh;
+  flex-grow: 1;
+  height: 100%;
   display: flex;
   align-items: center;
   background: #114357; /* fallback for old browsers */
@@ -11,7 +9,7 @@
   height: 850px;
 }
 .chat-box {
-  max-width: 460px;
+  width: 460px;
   margin-right: auto;
   margin-left: auto;
   color: white;
@@ -21,4 +19,6 @@
   padding: 1rem;
   border-radius: .25rem;
   background-color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
