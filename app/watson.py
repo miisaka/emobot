@@ -3,7 +3,6 @@ from watson_developer_cloud import ToneAnalyzerV3
 import json
 import os
 
-
 conversation = ConversationV1(
     username='48bdbc18-d849-450c-894d-e79de42e5a7f',
     password='HQDq5MCID6rW',
@@ -36,6 +35,7 @@ def conversationInput(input, workspace_number):
 
     return response
 
+conversationInput('hello', 2)
 
 def toneInput(input):
     inputDict = {}
@@ -54,7 +54,7 @@ def toneInput(input):
     return tone
 
 
-toneInput("I cried again today")
+#toneInput("I cried again today")
 
 
 #get tone from json

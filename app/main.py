@@ -1,7 +1,12 @@
 import os
+from multiprocessing import Value
+
 from flask import Flask, send_file, jsonify, request,  abort, json, session
 import app.db as db
 import twillio
+import watson
+
+counter = Value('i', 0)
 
 app = Flask(__name__)
 
@@ -43,7 +48,22 @@ def login():
 @app.route("/chat", methods=['POST'])
 def chat():
     print(request.json)
-    
+    if(counter.value < 2):
+        response = watson.conversation(request.json['message'], 1)
+    if(counter.value == 2):
+        toneResponseJson = watson.toneInput(request.json['message'])
+        tone = watson.get_tone(toneResponseJson)
+        if(tone is None):
+            response = watson.conversation(request.json['message'], 3)
+        else:
+            response = watson.conversation(request.json['message'], 2)
+            userInfo = db.query_users_info(session['username'])
+            twillio.send_sms(userInfo['contectName'], userInfo['contactNumber'], userInfo['relationToContact'], tone)
+    with counter.get_lock():
+        counter.value += 1
+    return jsonify({
+        'message': response['output']['text']
+    })
 
 # Everything not declared before (not a Flask route / API endpoint)...
 @app.route('/<path:path>')
@@ -67,4 +87,5 @@ if __name__ == "__main__":
     twillio.send_sms("Georgio", "15144653168", "papa", "angry")
     app.run(host='0.0.0.0', port=80)
     db.close_connection()
+
 
