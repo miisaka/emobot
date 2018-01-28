@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="272a6d59-f19f-4d86-8e3a-cb8ece06278c" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/app/appdb.db" afterPath="$PROJECT_DIR$/app/appdb.db" />
@@ -11,6 +12,13 @@
 =======
       <change beforePath="$PROJECT_DIR$/app/static/src/app/chat/containers/chat/chat.component.ts" afterPath="$PROJECT_DIR$/app/static/src/app/chat/containers/chat/chat.component.ts" />
 >>>>>>> c8617391dd1830b3352e305da9fe86c8d5f8a845
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/appdb.db" afterPath="$PROJECT_DIR$/app/appdb.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/db.py" afterPath="$PROJECT_DIR$/app/db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.py" afterPath="$PROJECT_DIR$/app/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/twillio.py" afterPath="$PROJECT_DIR$/app/twillio.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/watson.py" afterPath="$PROJECT_DIR$/app/watson.py" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
     </list>
     <ignored path="python-flask-conuhacks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +36,12 @@
 =======
     <SUITE FILE_PATH="coverage/python_flask_conuhacks$main_py.coverage" NAME="main.py Coverage Results" MODIFIED="1517119170087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
     <SUITE FILE_PATH="coverage/python-flask-conuhacks$watsonTest.coverage" NAME="watsonTest Coverage Results" MODIFIED="1517087372308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/python-flask-conuhacks$mainapp.coverage" NAME="mainapp Coverage Results" MODIFIED="1517097040516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
 >>>>>>> c8617391dd1830b3352e305da9fe86c8d5f8a845
+=======
+    <SUITE FILE_PATH="coverage/python-flask-conuhacks$mainapp.coverage" NAME="mainapp Coverage Results" MODIFIED="1517132195241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -48,6 +60,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="300">
               <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
@@ -89,10 +102,18 @@
                 <marker date="1517124095203" expanded="true" signature="153:188" ph="..." />
 >>>>>>> c8617391dd1830b3352e305da9fe86c8d5f8a845
               </folding>
+=======
+            <state relative-caret-position="413">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views.py">
@@ -165,6 +186,14 @@
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
             </state>
           </provider>
         </entry>
@@ -172,6 +201,7 @@
       <file leaf-file-name="register.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/src/app/register/register.component.ts">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="272">
               <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
 =======
@@ -183,6 +213,45 @@
 >>>>>>> c8617391dd1830b3352e305da9fe86c8d5f8a845
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+=======
+            <state relative-caret-position="369">
+              <caret line="76" column="18" lean-forward="false" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+              <folding>
+                <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+                <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+                <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+                <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+                <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+                <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twillio.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/twillio.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="watson.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/watson.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="132" column="22" lean-forward="false" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
               </folding>
             </state>
           </provider>
@@ -200,6 +269,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>terminal</find>
       <find>AppMod</find>
       <find>AppModule</find>
@@ -211,6 +281,9 @@
       <find>form</find>
       <find>ng</find>
 >>>>>>> c8617391dd1830b3352e305da9fe86c8d5f8a845
+=======
+      <find>tone</find>
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,13 +298,19 @@
         <option value="$PROJECT_DIR$/app/static/watsonTest.html" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/static/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/static/src/app/register/register.component.html" />
         <option value="$PROJECT_DIR$/app/static/src/app/login/login.component.html" />
+=======
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/watson.py" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
         <option value="$PROJECT_DIR$/app/db.py" />
         <option value="$PROJECT_DIR$/app/static/src/app/register/register.component.ts" />
         <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/main.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/static/src/app/login/login.component.ts" />
 =======
         <option value="$PROJECT_DIR$/app/views.py" />
@@ -244,6 +323,9 @@
         <option value="$PROJECT_DIR$/app/static/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/static/src/app/chat/containers/chat/chat.component.ts" />
 >>>>>>> c8617391dd1830b3352e305da9fe86c8d5f8a845
+=======
+        <option value="$PROJECT_DIR$/app/twillio.py" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
       </list>
     </option>
   </component>
@@ -278,6 +360,10 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
       <pane id="Scratches" />
       <pane id="Scope" />
 =======
@@ -388,6 +474,7 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -395,6 +482,13 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/main.py" />
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -709,6 +803,7 @@
     <editor active="true" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -721,9 +816,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18426724" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -768,6 +873,16 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.49783784" order="18" side_tool="false" content_ui="tabs" />
 >>>>>>> c8617391dd1830b3352e305da9fe86c8d5f8a845
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,6 +907,9 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
     <entry file="file://$PROJECT_DIR$/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -802,26 +920,60 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/static/src/app/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/app/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/twillio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="836">
+          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -830,19 +982,136 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="154">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/main.py">
+=======
+    <entry file="file://$PROJECT_DIR$/app/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="30" lean-forward="false" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/twillio.py">
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+<<<<<<< HEAD
+=======
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding>
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="250">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/watsonTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding>
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+          </folding>
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/watsonTest.py" />
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -878,6 +1147,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/watsonTest.py" />
+    <entry file="file://C:/Python27/Lib/site-packages/twilio/rest/api/v2010/account/message/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="91" column="19" lean-forward="false" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
         </state>
       </provider>
     </entry>
@@ -888,8 +1168,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/watsonTest.py">
+    <entry file="file://$PROJECT_DIR$/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="340">
           <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
         </state>
@@ -901,12 +1182,27 @@
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="false" />
+=======
+        <state relative-caret-position="413">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/db.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1250">
           <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
           <folding />
@@ -1083,10 +1379,26 @@
           <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+=======
+        <state relative-caret-position="369">
+          <caret line="76" column="18" lean-forward="false" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding>
+            <marker date="1517132192432" expanded="true" signature="148:170" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="205:287" ph="CREATE TABLE... emotionList" />
+            <marker date="1517132192432" expanded="true" signature="325:539" ph="CREATE TABLE... users" />
+            <marker date="1517132192432" expanded="true" signature="577:854" ph="CREATE TABLE... userEmotion" />
+            <marker date="1517132192432" expanded="true" signature="1046:1068" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1480:1502" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1833:1855" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="1879:1926" ph="SELECT passw... users" />
+            <marker date="1517132192432" expanded="true" signature="2104:2126" ph="PRAGMA forei... " />
+            <marker date="1517132192432" expanded="true" signature="2150:2234" ph="SELECT passw... users" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -1262,6 +1574,24 @@
             <marker date="1517124095203" expanded="true" signature="121:232" ph="..." />
             <marker date="1517124095203" expanded="true" signature="153:188" ph="..." />
 >>>>>>> c8617391dd1830b3352e305da9fe86c8d5f8a845
+=======
+    <entry file="file://$PROJECT_DIR$/app/watson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="132" column="22" lean-forward="false" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/twillio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
           </folding>
         </state>
       </provider>

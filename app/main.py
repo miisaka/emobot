@@ -1,7 +1,14 @@
 import os
+from flask import Flask, send_file, request
 import app.db as db
+<<<<<<< HEAD
 import views
 
+=======
+import twillio
+
+app = Flask(__name__)
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
 
 from flask import Flask, send_file, jsonify, request,  abort, json
 
@@ -17,6 +24,7 @@ def main():
     index_path = os.path.join(app.static_folder, 'index.html')
     return send_file(index_path)
 
+<<<<<<< HEAD
 @app.route("/register", methods=['POST'])
 def register():
     username = (request.json['username'])
@@ -41,6 +49,8 @@ def login():
     return -1
 
 
+=======
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
 # Everything not declared before (not a Flask route / API endpoint)...
 @app.route('/<path:path>')
 def route_frontend(path):
@@ -57,7 +67,13 @@ def route_frontend(path):
 
 if __name__ == "__main__":
     db.create_tables()
+<<<<<<< HEAD
     # Only for debugging while developing
+=======
+    db.insert_into_users('user1','pw1','contact1', 1234, 'papa')
+    db.query_users_info('user1')
+    # twillio.send_sms("Georgio", "15144653168", "papa", "angry")
+>>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
     app.run(host='0.0.0.0', port=80)
     db.close_connection()
 
