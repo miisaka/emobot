@@ -1,1 +1,1 @@
-# Emobot 🙃
+# Emobot 
