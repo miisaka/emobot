@@ -5,11 +5,12 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';  // <-- #1 import module
 
 // chat
 import { ChatModule } from "./chat/chat.module";
 import { ChatPageComponent } from "./chat/components/chat-page/chat-page.component";
-import { RegisterComponent } from './register/register.component';
 
 const ROUTES: Routes = [
   { path: '', pathMatch: 'full', component: ChatPageComponent },
@@ -28,7 +29,9 @@ const ROUTES: Routes = [
   imports: [
     BrowserModule,
     ChatModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES),
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
