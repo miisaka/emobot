@@ -16,10 +16,18 @@ tone_analyzer = ToneAnalyzerV3(
   password='fn7VYBpDSVbb'
 )
 
-def conversationInput(input):
+
+def conversationInput(input, workspace_number):
+
+    if workspace_number == 1:
+        workspace_id = '522f8bfa-610d-46d7-bd1c-85205cfd2b50'
+    if workspace_number == 2:
+        workspace_id = '25c08b66-e9f4-4275-ad4c-ca6b62dc9f9f'
+    if workspace_number == 3:
+        workspace_id = 'ca699c68-d8e1-4f81-a06b-a831dd425015'
 
     response = conversation.message(
-        workspace_id='522f8bfa-610d-46d7-bd1c-85205cfd2b50',
+        workspace_id=workspace_id,
         input={
             'text': input
         }
