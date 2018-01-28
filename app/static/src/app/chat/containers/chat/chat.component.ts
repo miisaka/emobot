@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 import { HttpClient } from "@angular/common/http";
 
+
 import 'rxjs/add/operator/catch';
 import { Observable } from "rxjs/Observable";
 
@@ -26,9 +27,9 @@ export interface Message {
       <div class="send-box">
         <form [formGroup]="form" (submit)="submitMessage()">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1" formControlName="message" autofocus>
+            <input type="text" class="form-control" placeholder="Type a message!" aria-label="" aria-describedby="basic-addon1" formControlName="message" autofocus>
             <div class="input-group-prepend">
-              <button class="btn btn-outline-secondary" type="button">Submit</button>
+              <button class="btn btn-outline-secondary" type="button" value="Submit">Submit</button>
             </div>
           </div>
         </form>
@@ -40,8 +41,8 @@ export interface Message {
 export class ChatComponent {
 
   messages: Message[] = [
-    { isRight: true, body: 'lorafewafewa' },
-    { isRight: true, body: 'lorafewafewa' },
+    { isRight: false, body: 'Hello ' + 'user' + ', how are you today?' },
+    { isRight: true, body: 'AHHHHHHHHHHHHHHHHHHHHHHHHHHHHH' },
     { isRight: false, body: 'lorafewafewa' },
     { isRight: false, body: 'lorafewafewa' },
   ];
