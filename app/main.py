@@ -42,6 +42,12 @@ def login():
         print('horray everythings right')
     return json.dumps(request.json)
 
+@app.route("/chat", methods=['POST'])
+def chat():
+    print(request.json)
+    return json.dumps(request.json)
+
+
 # Everything not declared before (not a Flask route / API endpoint)...
 @app.route('/<path:path>')
 def route_frontend(path):

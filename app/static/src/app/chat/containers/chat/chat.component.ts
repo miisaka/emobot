@@ -58,10 +58,9 @@ export class ChatComponent {
   submitMessage() {
     console.log(this.form.value);
     if (this.form.valid) {
-      this.http.post('', this.form.value)
+      this.http.post('http://localhost:4200/api/chat', this.form.value)
         .catch((err) => Observable.throw(err))
         .subscribe((res) => {
-
         }, (err) => {
 
       });
