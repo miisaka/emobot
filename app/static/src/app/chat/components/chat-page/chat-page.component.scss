@@ -6,7 +6,8 @@
   background: #114357; /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #114357, #f29492); /* Chrome 10-25, Safari 5.1-6 */
   background: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg")no-repeat center center; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 850px;
+  background-size: cover;
+  height: 677px;
 }
 .chat-box {
   width: 460px;
