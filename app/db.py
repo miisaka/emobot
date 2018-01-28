@@ -60,15 +60,12 @@ def query_users(username):
     cursor.execute('PRAGMA foreign_keys=ON')
 
     cursor.execute("SELECT password FROM users WHERE username='{0}'".format(username))
-<<<<<<< HEAD
     # print cursor.fetchone()[1]
     name = cursor.fetchone()[0]
     row = cursor.fetchone()
     if row is not None:
         names = row[0]
     return name
-=======
-    return cursor.fetchone()[0]
 
 def query_users_info(username):
     userInfo = {}
@@ -84,9 +81,6 @@ def query_users_info(username):
 
     print userInfo
     return userInfo
-
-
->>>>>>> e55a6b46edad66bdc79dc34eb44e4db55307c86a
 
 def close_connection():
     conn.close()
