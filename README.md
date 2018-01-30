@@ -5,3 +5,8 @@ Emotion is an interactive bot built using IBM's Watson API and will alllow elder
 Sample SMS message the contact might receive:
 
 ![Alt text](SMSsample.JPG?raw=true "Title")
+
+Sample chatbot instance:
+
+![Alt text](emobot_chat.png?raw=true "Title")
+
